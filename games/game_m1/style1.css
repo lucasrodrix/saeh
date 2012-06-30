@@ -1,0 +1,4 @@
+label,  input { display:block; float:left;}
+label { text-align:center; width: 5px; padding-right: 70px; padding-bottom: 5px;}
+fieldset {width:auto; position:top; float:left;}
+body {background:url(images/backhtml.png);background-position:center; color:black;}

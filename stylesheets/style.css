@@ -1,0 +1,16 @@
+﻿#menu1 .g1{position:fixed; left:120px; top:200px;}
+#menu1 .g2{position:fixed; left:60px; top:270px;}
+#menu1 .exit{position:fixed; left:70%; top:20%;}
+#all{ width:1000px; height:auto; margin:0 auto;}
+#logo .title{ width:400px; margin-bottom:25px; }
+#login{margin-top:20px; margin-right:auto; margin-left:auto; width:300px;}
+#f1{text-align:left;}
+#bg {width:1000px; height:auto; background:url("../images/back1.png") fixed center center;}
+#bg1{width:auto; height:auto; background:url("../images/fundo1.png") fixed center center; background-size:100% 100%;}
+#bg2{width:auto; height:auto; background:url("../images/fundo2.png") fixed center center; background-size:100% 100%;}
+body { text-align:center; font-size:16pt; margin-right:auto; margin-left:auto;}
+label,  input { display:block; float:left;}
+label { text-align:center; width: 45px; padding-right: 50px; padding-bottom: 10px;}
+fieldset {width:300px; position:top;}
+br {clear: left;}
+table{ margin-right:auto; margin-left:auto; margin-top:10px;}
