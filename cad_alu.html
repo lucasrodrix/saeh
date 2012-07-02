@@ -7,15 +7,14 @@
 	</head>
 	<body id="bg">
 		<div id="all">
-			
+
 			<div id="logo">
-				<img class="title" src="images/title1.png" alt="titulo" /><br />
-				<img class="title" src="images/title3.png" alt="sub1" /><br />
-				<img class="title" src="images/title2.png" alt="sub2" />
+				<img src="images/title6.png" alt="titulo" />
 			</div>
 			
-			<form id="f1" name="form1" method="post" action="php/insalu.php">
-				<fieldset id="login" class="box">
+			<form name="form1" method="post" action="php/insalu.php">
+				<div class="box">
+				<fieldset>
 				<legend>Cadastrar Aluno</legend>
 					<label for="nome">Nome:</label>
 					<input type="text" name="nome" /><br />
@@ -25,23 +24,11 @@
 					<input type="text" name="login" /><br />
 					<label for="login">Senha:</label>
 					<input type="password" name="senha" /><br />
-				</fieldset>
-				
-			<div id="menu">
-				<table>
-					<tr>
-						<td>
-							<input type="submit" name="bcadastrar" id="bcadastrar" value="CADASTRAR" />
-						</td>
-						<td>
-							<input type="reset" name="Reset" id="button" value="LIMPAR" />
-						</td>
-						<td>
-							<input type="button" VALUE="VOLTAR" onClick="Back()" />
-						</td>
-					</tr>
-				</table>
-			</div>
+				</fieldset>			
+					<input type="submit" name="bcadastrar" id="bcadastrar" value="CADASTRAR" />
+					<input type="reset" name="Reset" id="button" value="LIMPAR" />
+					<input type="button" VALUE="VOLTAR" id="button" onClick="Back()" />
+				</div>
 			</form>
 		</div>
 </body>
