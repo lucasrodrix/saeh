@@ -25,10 +25,15 @@ function Backm()
 
 function Math1()
 {
-	location.href="games/game_m1/index.php"
+	location.href="games/game_m1/index.html"
 }
 
 function Math2()
 {
-	location.href="../../games/game_m2/index.php"
+	location.href="games/game_m2/index.php"
+}
+
+function Mmt()
+{
+	location.href="menu_math.html"
 }
